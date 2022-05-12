@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Painel
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-searchbar showCancelButton="never"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://lojapopscene.com/wp-content/uploads/2019/02/14.jpg">
+    </ion-thumbnail>
+    <ion-label>Camiseta Scorpion – Drake</ion-label>
+    <ion-badge color="light">R$39,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://lojapopscene.com/wp-content/uploads/2019/02/11.jpg">
+    </ion-thumbnail>
+    <ion-label>Camiseta Hit – Drake</ion-label>
+    <ion-badge color="light">R$39,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="http://lojapopscene.com/wp-content/uploads/2019/02/17.jpg">
+    </ion-thumbnail>
+    <ion-label>Camiseta Showtime – Drake</ion-label>
+    <ion-badge color="light">R$39,90</ion-badge>
+  </ion-item>
+
 </ion-content>
